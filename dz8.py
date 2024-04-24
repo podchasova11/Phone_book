@@ -122,6 +122,7 @@ def copy_contact():
             with open(dest_filename, 'a', encoding='utf-8') as dest_file:
                 dest_file.write(src_file.read())
         print('Данные успешно скопированы.')
+        print(src_file)
     except FileNotFoundError:
         print('Ошибка: файл не найден.')
 
