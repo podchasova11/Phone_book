@@ -9,7 +9,7 @@
 ### 4. Использование функций. Ваша программа не должна быть линейной
 ```  
 contact_data = {
-  'firrst_name': None,
+  'first_name': None,
   'second_name': None,
   'phone_number': None
  }
